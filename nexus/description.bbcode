@@ -1,0 +1,38 @@
+The game gives you 2 hotbar slots, and a backpack adds only 1 or 2 more, so 4 items is the limit. This mod makes each backpack bigger and adds keys for the new slots.
+
+[size=4][b]Main features[/b][/size]
+[list]
+[*][b]Bigger backpacks[/b]: the Small Backpack adds 4 hotbar slots instead of 1 (6 in total), and the Large Backpack adds 8 instead of 2 (10 in total). Without a backpack you keep the game's 2 slots.[/*]
+[*][b]Backpacks store more[/b]: when you take a backpack off, it keeps the items of its slots, as in the game: 4 items in the Small Backpack, 8 in the Large Backpack. Wear it again and the items come back into your hotbar.[/*]
+[*][b]Keys for slots 9 and 10[/b]: press 9 and 0. The mouse wheel and the controller bumpers cycle through all slots, as in the game. The keys do nothing while a menu is open, in photo mode, and wherever the game blocks the keys 1 to 8.[/*]
+[*][b]Settings[/b]: change the base slots, the slots of each backpack, and the keys of slots 9 and 10. The hotbar never goes above 10 slots.[/*]
+[/list]
+
+[size=4][b]Multiplayer[/b][/size]
+In co-op, the host and every player need the mod, in the same version and with the same settings. Not tested in co-op.
+
+[size=4][b]Save safety[/b][/size]
+The mod stores nothing in your save: the game already saves your hotbar and your backpacks. Removing the mod needs care, see Uninstall.
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*]Nomad Drive (Early Access), the update of 28 October 2026 or later.[/*]
+[*][url=https://www.nexusmods.com/nomaddrive/mods/7]Nomad Drive BepInEx Pack[/url].[/*]
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Install the [url=https://www.nexusmods.com/nomaddrive/mods/7]BepInEx pack[/url].[/*]
+[*]Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in BepInEx\plugins. Full path example:
+[code]C:\Program Files (x86)\Steam\steamapps\common\Nomad Drive\BepInEx\plugins\MoreHotbarSlots.dll[/code][/*][/list]
+
+[size=4][b]Uninstall[/b][/size]
+First empty hotbar slots 9 and 10 and every backpack in the game, then save and quit. Without the mod, items in slots 9 and 10 leave your hotbar at the next load, and a backpack keeps only the game's number of items (1 or 2).
+Delete [font=Courier New]MoreHotbarSlots.dll[/font] from the [font=Courier New]BepInEx\plugins[/font] folder.
+
+[size=4][b]Configuration[/b][/size]
+To change mod settings, edit [font=Courier New]BepInEx\config\com.ivmakk.nomaddrive.morehotbarslots.cfg[/font] while the game is closed (see [url=https://github.com/ivmakk-nd/nd-more-hotbar-slots/blob/main/CONFIG.md]CONFIG.md[/url] for every setting). Changes apply at the next game start.
+Base slots and backpack slots together are at most 10, so a higher base slots value can make your backpacks smaller. Empty your backpacks before you change any slot setting.
+
+[size=4][b]Source and license[/b][/size]
+Open source under GPL-3.0: [url=https://github.com/ivmakk-nd/nd-more-hotbar-slots]github.com/ivmakk-nd/nd-more-hotbar-slots[/url]
